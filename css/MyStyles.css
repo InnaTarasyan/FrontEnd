@@ -1,0 +1,50 @@
+.bg6 {
+    background-image: -moz-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+
+}
+.logo {
+    background-image: url("../images/top/logo.png");
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 349px;
+    height: 75px;
+    z-index: 50;
+}
+.Layer_44 {
+    background-image: url("../images/social_icons/Layer 44.png");
+    position: relative;
+    width: 44px;
+    height: 43px;
+    z-index: 70;
+}
+.Layer_43 {
+    background-image: url("../images/social_icons/Layer 43.png");
+    position: relative;
+    width: 44px;
+    height: 43px;
+    z-index: 69;
+}
+.Layer_42 {
+    background-image: url("../images/social_icons/Layer 42.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 68;
+}
+.Layer_41 {
+    background-image: url("../images/social_icons/Layer 41.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 67;
+}
+.Layer_40 {
+    background-image: url("../images/social_icons/Layer 40.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 66;
+}
