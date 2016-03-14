@@ -85,6 +85,34 @@
     </div>
 </div>
 
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6">
+            Omkring os<br/>
+            Vores målsætning er at gøre DSB Rejsegaranti tilgængelig for all
+        </div>
+        <div class="col-md-6">
+            Sidste nyt<br/>
+            Her kan du løbende følge med i relevante nyheder angående DSB R
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            Blog<br/>
+            DSB forsinkelser – DSB rejsegaranti kan komme i spil September<br/>
+            DSB forsinkelser – DSB rejsegaranti kan komme i spil September<br/>
+        </div>
+        <div class="col-md-6">
+            Vores målsætning:<br/>
+            • Sikre kompensation<br/>
+            • Simpel ansøgning<br/>
+            • Flot design<br/>
+            • Gratis
+        </div>
+    </div>
+
+</div>
 
 </body>
 </html>
