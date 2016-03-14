@@ -48,3 +48,38 @@
     height: 44px;
     z-index: 66;
 }
+
+.Kompensation {
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.Ellipse_1 {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    height: 47px;
+
+}
+
+.Det_er_dejligt_med_en_app_der_hjælper_med_reseg {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.125;
+    z-index: 130;
+}
+._customer {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    z-index: 132;
+}
