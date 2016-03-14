@@ -131,10 +131,9 @@
 </div>
 <div class="søg">Søg</div>
 </div>
-
-
 <div class="bg">
 </div>
+
 <div class="footer_2">
 <div class="Copyright_DSB_Rejsegaranti_2015__All_rights_res">Copyright DSB Rejsegaranti 2015. All rights reserved.</div>
  <div class="Rectangle_5"></div>

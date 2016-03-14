@@ -7,7 +7,9 @@
     <script src="js/bootstrap.min.js"></script>
 
 </head>
-<body style="height: 100%">
+<body style="height: 100%; padding-top: 75px; ">
+
+
 <div class="navbar navbar-inverse navbar-fixed-top bg6" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -43,6 +45,30 @@
         </div><!--/.navbar-collapse -->
     </div>
 </div>
+
+
+<div class="container-fluid" style="background-image: url('images/gallery/new.png');no-repeat;background-size:auto 896px;">
+   <div class="row">
+       <div class="col-md-6 center-block visible-lg visible-md">
+           <div  style="font-size: 20px;font-family: 'OpenSans';
+           position: relative;padding-top: 503px;
+           padding-left: 384.87px;
+           color: rgb(255, 255, 255);font-weight: bold;
+           text-transform: uppercase;line-height: 1.2;
+           float: none;
+           margin: 0 auto;">Download Now</div>
+           </div>
+
+     <div class="col-md-6">
+   <img src="images/top/iPhone%206%20White.png" width="448" height="588"/>
+       </div>
+   </div>
+  <div class="row visible-xs visible-sm" style="background-color: rgb(219, 12, 68);
+    height: 155px;">
+      Next Row
+  </div>
+</div>
+
 
 <div class="jumbotron" style="background-color: rgb(244, 243, 243);">
     <div class="container">
@@ -85,26 +111,28 @@
     </div>
 </div>
 
-<div class="container" style="background-image: url('images/map/map.png'); height: 489px;">
+<div class="container" style="background-image: url('images/map/map.png');">
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" style="height: 150px;">
            <div  style="font-size: 30px;font-family: 'Arial';color: rgb(51, 51, 51);line-height: 0.6;text-align: center;">
                Omkring os</div><br/>
             <div style=" font-size: 16px;font-family: 'Arial'; color: rgb(102, 102, 102);line-height: 1.5;width: 512px;height: 64px;z-index: 138;">
             Vores målsætning er at gøre DSB Rejsegaranti tilgængelig for all
             </div>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6" style="height: 150px;">
             <div style="font-size: 30px;font-family: 'Arial';color: rgb(51, 51, 51);line-height: 0.6;text-align: center;"> Sidste nyt</div><br/>
             <div style=" font-size: 16px;font-family: 'Arial'; color: rgb(102, 102, 102);line-height: 1.5;width: 512px;height: 64px;z-index: 138;">
             Her kan du løbende følge med i relevante nyheder angående DSB R
             </div>
         </div>
+
     </div>
     <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-6" style="height: 150px;">
             <div style="font-size: 30px;font-family: 'Arial';color: rgb(51, 51, 51);line-height: 0.6;text-align: center;">Vores målsætning:</div><br/>
             <div style=" font-size: 16px;font-family: 'Arial'; color: rgb(102, 102, 102);line-height: 1.5;width: 512px;height: 64px;z-index: 138;">
             • Sikre kompensation<br/>
@@ -113,7 +141,7 @@
             • Gratis
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" style="height: 150px;">
             <div style="font-size: 30px;font-family: 'Arial';color: rgb(51, 51, 51);line-height: 0.6;text-align: center;">Blog</div><br/>
 
             <div style=" font-size: 16px;font-family: 'Arial'; color: rgb(102, 102, 102);line-height: 1.5;width: 512px;height: 64px;z-index: 138;">
@@ -125,7 +153,7 @@
 
 </div>
 
-<div class="jumbotron" style="background-color: rgb(17, 41, 71);color: white; text-align: center">
+<div class="jumbotron" style="background-color: rgb(17, 41, 71);color: white; text-align: center;">
 <div class="container">
 
     <div class="row">
@@ -151,19 +179,26 @@
         </div>
         <div class="col-md-3">
             DSB Rejsegaranti<br/><br/>
-            <div style="border-style: solid;border-width: 1px;border-color: rgb(29, 51, 80);border-radius: 4px;background-color: rgb(21, 38, 60);height: 67px;">
+
                 Download Now <br/>
                 DBS Rejsegaranti
-            </div>
+
 
         </div>
         <div class="col-md-3">
             Søg<br/>
 
         </div>
+
     </div>
 
 </div>
+</div>
+
+<div id="footer" style=" background-color: rgb(1, 13, 29);">
+    <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+    </div>
 </div>
 
 </body>
