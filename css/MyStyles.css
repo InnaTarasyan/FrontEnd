@@ -1,0 +1,85 @@
+.bg6 {
+    background-image: -moz-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
+
+}
+.logo {
+    background-image: url("../images/top/logo.png");
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 349px;
+    height: 75px;
+    z-index: 50;
+}
+.Layer_44 {
+    background-image: url("../images/social_icons/Layer 44.png");
+    position: relative;
+    width: 44px;
+    height: 43px;
+    z-index: 70;
+}
+.Layer_43 {
+    background-image: url("../images/social_icons/Layer 43.png");
+    position: relative;
+    width: 44px;
+    height: 43px;
+    z-index: 69;
+}
+.Layer_42 {
+    background-image: url("../images/social_icons/Layer 42.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 68;
+}
+.Layer_41 {
+    background-image: url("../images/social_icons/Layer 41.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 67;
+}
+.Layer_40 {
+    background-image: url("../images/social_icons/Layer 40.png");
+    position: relative;
+    width: 44px;
+    height: 44px;
+    z-index: 66;
+}
+
+.Kompensation {
+    font-size: 24px;
+    font-family: "OpenSans";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.Ellipse_1 {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(225,10,70) 0%, rgb(183,22,49) 100%);
+    height: 47px;
+
+}
+
+.Det_er_dejligt_med_en_app_der_hjælper_med_reseg {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.125;
+    z-index: 130;
+}
+._customer {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    z-index: 132;
+}
