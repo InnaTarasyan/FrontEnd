@@ -23,9 +23,29 @@
             left: 50%;
             margin-left: -800px;
 
+        }*/
+
+
+
+
+        @media screen and (max-width: 1920px){
+
+            .carousel.slide{
+                max-width: 3200px; //the largest you want the image to stretch
+            min-width: 900px; //the "container" width
+            overflow: hidden;
+            }
+
+            .carousel-inner{
+            width: 1600px;
+            left: 50%;
+            margin-left: -800px;
+
+        }
         }
 
-      */
+
+
         /*
         .carousel.slide{
             max-width: 100%; //the largest you want the image to stretch
@@ -51,14 +71,18 @@
             text-shadow: 0 1px 2px rgba(0,0,0,.6);
             width: 100%;
         }
+
+
+
+
+
         @media screen and (max-width: 1000px) {
 
+            .imgimg{
 
-            .imgimg {
-                width: 70%;
-                height: 70%;
-                float:right;
-                clear:right;
+                width: 18%;
+                height: 18%;
+                transform: translate(600px,0);
             }
 
             /*
@@ -81,7 +105,19 @@
             {
                 height: 986px;
             }
+
+
+
         }
+
+        @media all and (max-width: 500px) { /* screen size until 500px */
+            .innerText {
+                font-size: 0.7em; /* 0.7x default size */
+            }
+        }
+
+
+
     </style>
 </head>
 <body style="height: 100%;">
@@ -133,14 +169,15 @@
 
     <div class="carousel-inner" role="listbox" >
 
-        <div class="active item" id="item1" >
-            <img class="new" src="images/gallery/new.png"  style="height: 896px;" alt="...">
+        <div class="active item" id="item1">
+            <img class="new" src="images/gallery/new.png"  style="height: 896px;width: 100%" alt="...">
 
 
             <div class="carousel-content" >
 
                 <div class="row">
-                    <div class="col-md-8 center-block visible-lg visible-md">
+                    <div class="col-xs-11 col-xs-offset-1">
+                    <div class="col-md-6 center-block visible-lg visible-md">
 
 
                         <div  style="font-size: 20px;font-family: 'OpenSans';
@@ -152,7 +189,7 @@
            margin: 0 auto;">
                             <div style=" font-size: 40px;font-weight: bold;">
                                 DSB Basis Rejsetidsgaranti</div>
-                            <div style="text-transform: uppercase">
+                            <div  style="text-transform: uppercase">
                                 Kompensation ved forsinkelse<br/><br/>
 
                                 <div style="border-style: solid;border-width: 2px;
@@ -163,17 +200,19 @@
                            text-align: center;
                            ">
                                     Download Now
+
                                 </div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div class="col-md-4" >
+                    <div class="col-md-5" >
 
                         <img src="images/top/iPhone%206%20White.png" class="imgimg"
                         />
 
+                    </div>
                     </div>
                 </div>
 
@@ -182,22 +221,25 @@
                ">
 
                     <div style="display: table;
-                margin: 0 auto;">
+                margin: 0 auto;width: 100%">
 
                         <div style="font-size: 14px;
                     font-family: 'OpenSans';
                     color: rgb(255, 255, 255);
                     line-height: 1.2;">
                             <div style=" font-size: 24px;">
-                                DSB Basis Rejsetidsgaranti</div><br/>
+                                <div class="innerText">
+                                DSB Basis Rejsetidsgaranti
+                                </div>
+                                </div><br/>
 
-                            <div style="text-transform: uppercase"> Kompensation ved forsinkelse</div>
+                            <div class="innerText" style="text-transform: uppercase;"> Kompensation ved forsinkelse</div>
                             <br/>
                             <div style="border-style: solid;
                   border-width: 2px;
                   border-color: rgb(255, 255, 255);
                   background-color: rgba(1, 0, 0, 0.161);
-                  width: 225px;
+                  width: 10%;
                   height: 52px;
                   margin: 0 auto;
                   padding: 10px;
@@ -219,13 +261,14 @@
         </div>
 
         <div class="item" id="item2">
-            <img class="new" style="height: 896px;" src="images/gallery/new.png"/>
+            <img class="new" style="height: 896px;width: 100%" src="images/gallery/new.png"/>
 
 
             <div class="carousel-content" >
 
                 <div class="row">
-                    <div class="col-md-8 center-block visible-lg visible-md">
+                    <div class="col-xs-11 col-xs-offset-1">
+                    <div class="col-md-6 center-block visible-lg visible-md">
 
 
                         <div  style="font-size: 20px;font-family: 'OpenSans';
@@ -254,11 +297,12 @@
 
                     </div>
 
-                    <div class="col-md-4" >
+                    <div class="col-md-5" >
 
                         <img src="images/top/iPhone%206%20White.png" class="imgimg"
                         />
 
+                    </div>
                     </div>
                 </div>
 
@@ -266,23 +310,27 @@
                 <div class="row visible-xs visible-sm" style="background-color: rgb(219, 12, 68);text-align: center;padding-bottom: 80px;
                ">
 
+
                     <div style="display: table;
-                margin: 0 auto;">
+                margin: 0 auto;width: 100%">
 
                         <div style="font-size: 14px;
                     font-family: 'OpenSans';
                     color: rgb(255, 255, 255);
                     line-height: 1.2;">
                             <div style=" font-size: 24px;">
-                                DSB Basis Rejsetidsgaranti</div><br/>
+                                <div class="innerText">
+                                DSB Basis Rejsetidsgaranti
+                                </div>
+                                </div><br/>
 
-                            <div style="text-transform: uppercase"> Kompensation ved forsinkelse</div>
+                            <div style="text-transform: uppercase" class="innerText"> Kompensation ved forsinkelse</div>
                             <br/>
                             <div style="border-style: solid;
                   border-width: 2px;
                   border-color: rgb(255, 255, 255);
                   background-color: rgba(1, 0, 0, 0.161);
-                  width: 225px;
+                  width: 10%;
                   height: 52px;
                   margin: 0 auto;
                   padding: 10px;
@@ -295,6 +343,7 @@
                         </div>
 
                     </div>
+
 
                 </div>
             </div>
@@ -320,10 +369,19 @@
 <div class="jumbotron" style="background-color: rgb(244, 243, 243);">
     <div class="container">
         <br/>
+        <div class="row">
+        <div class="col-xs-11 col-xs-offset-1">
         <div style="text-align:center;font-size: 40px;font-family: 'OpenSans';color: rgb(51, 51, 51);line-height: 1.2;">
+           <div class="innerText">
             DSB Rejsetidsgaranti. Få kompensation.
+           </div>
+
         </div>
         <br/>
+        </div>
+         </div>
+        <div class="row">
+            <div class="col-xs-11 col-xs-offset-1">
         <div style="
         font-size: 16px;
         font-family: 'OpenSans';
@@ -332,6 +390,8 @@
         z-index: 75;
         ">
             Hvis du på en rejse er blevet forsinket mere end 30 minutter, kan du få kompensation via DSB Basis Rejsetidsgaranti, når du har rejst med DSB fjern- eller regional tog i Danmark med billet, klippekort, rejsekort eller Bus & Tog Årskort
+        </div>
+                </div>
         </div>
     </div>
 </div>
@@ -350,7 +410,7 @@
                 <img src="images/screens/small_icons/money.png" width="30" height="30">
             </div>
             <br/>
-            <div style="font-size: 24px;
+            <div style="font-size: 14px;
         font-family: 'OpenSans';color: rgb(51, 51, 51);
         text-transform: uppercase;line-height: 1.2;">
                 Kompensation
@@ -366,7 +426,7 @@
                 <img src="images/screens/small_icons/train.png" width="30" height="30">
             </div>
             <br/>
-            <div style="font-size: 24px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
+            <div style="font-size: 14px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
                 Rejseoplysninger
             </div>
             Indtast oplysninger om den aktuelle rejse.
@@ -380,7 +440,7 @@
                 <img src="images/screens/small_icons/person.png" width="30" height="30">
             </div>
             <br/>
-            <div style="font-size: 24px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
+            <div style="font-size: 14px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
                 Personoplysninger
             </div>
             Indtast dine personlige oplysninger.
@@ -394,7 +454,7 @@
                 <img src="images/screens/small_icons/ticket.png" width="30" height="30">
             </div>
             <br/>
-            <div style="font-size: 24px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
+            <div style="font-size: 14px;font-family: 'OpenSans';color: rgb(51, 51, 51);text-transform: uppercase;line-height: 1.2;">
                 Type
             </div>
             Vælg ønskede kompensationstype.
@@ -411,7 +471,8 @@
     background-image: -webkit-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(183,22,49) 0%, rgb(235,10,77) 100%);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.45);
-    width: 277px;
+    /*width: 277px;*/
+    width: 40%;
     height: 67px;
     z-index: 119;
     font-size: 22px;
@@ -420,8 +481,10 @@
     font-weight: bold;
     text-transform: uppercase;
     ">
-        <img src="images/screens/icon.png" width="18" height="31">
+        <img src="images/screens/icon.png">
+        <span class="innerText">
         Download Now
+        </span>
     </div>
     <br/>
 </div>
