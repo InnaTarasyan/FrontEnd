@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--<link>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -10,6 +11,7 @@
 
 
     <style>
+
 
         html, body {
             overflow-x: hidden;
@@ -107,7 +109,7 @@
             }
             .carousel-inner
             {
-                height: 986px;
+               /* height: 986px;*/
             }
 
 
@@ -176,8 +178,9 @@
 
     <div class="carousel-inner" role="listbox">
 
-        <div class="active item" id="item1">
-            <img class="new" src="images/gallery/new.png"  style="height: 896px;width: 100%" alt="...">
+        <div class="active item" id="item1"
+        >
+            <img class="new" src="images/gallery/new.png"  style="min-height:496px;max-height: 896px;width: 100%" alt="...">
 
 
             <div class="carousel-content" >
@@ -268,7 +271,7 @@
         </div>
 
         <div class="item" id="item2">
-            <img class="new" style="height: 896px;width: 100%" src="images/gallery/new.png"/>
+            <img class="new" style="min-height:496px;max-height: 896px;width: 100%" src="images/gallery/new.png"/>
 
 
             <div class="carousel-content" >
