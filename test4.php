@@ -85,7 +85,7 @@
                 /*
                 width: 18%;
                 height: 18%;
-                transform: translate(600px,0);*/
+                transform: translate(180,0);*/
             }
 
             /*
@@ -127,7 +127,7 @@
 
 
 
-<div class="navbar navbar-inverse navbar-fixed-top bg6" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top bg6" role="navigation" >
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -138,7 +138,13 @@
             </button>
             <!--<a class="navbar-brand" href="#">Project name</a>-->
             <!--<div class="navbar-brand logo"></div>-->
-            <div class="navbar-brand">LOGO</div>
+            <div class="navbar-brand">
+
+            <img style="max-width:200px; margin-top: -7px;"
+                 src="images/top/logo.png">
+
+            </div>
+
             <!--
             <ul class="nav navbar-brand navbar-nav navbar-right">
                 <li><div class="Layer_44"></div></li>
@@ -152,11 +158,11 @@
         <div class="navbar-collapse collapse">
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
-                    <li><div class="Layer_44"></div></li>
-                    <li><div class="Layer_43"></div></li>
-                    <li><div class="Layer_42"></div></li>
-                    <li><div class="Layer_41"></div></li>
-                    <li><div class="Layer_40"></div></li>
+                    <li><div class="Layer_44" style="margin: auto;"></div></li>
+                    <li><div class="Layer_43" style="margin: auto;"></div></li>
+                    <li><div class="Layer_42" style="margin: auto;"></div></li>
+                    <li><div class="Layer_41" style="margin: auto;"></div></li>
+                    <li><div class="Layer_40" style="margin: auto;"></div></li>
                 </ul>
             </div>
 
@@ -242,7 +248,7 @@
                   border-width: 2px;
                   border-color: rgb(255, 255, 255);
                   background-color: rgba(1, 0, 0, 0.161);
-                  width: 10%;
+                  width: 30%;
                   height: 52px;
                   margin: 0 auto;
                   padding: 10px;
@@ -333,7 +339,7 @@
                   border-width: 2px;
                   border-color: rgb(255, 255, 255);
                   background-color: rgba(1, 0, 0, 0.161);
-                  width: 10%;
+                  width: 30%;
                   height: 52px;
                   margin: 0 auto;
                   padding: 10px;
