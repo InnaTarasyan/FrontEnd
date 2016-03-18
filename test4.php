@@ -83,7 +83,6 @@
 
             .imgimg{
 
-
                 /*
                 width: 18%;
                 height: 18%;
@@ -116,8 +115,15 @@
         }
 
         @media all and (max-width: 500px) { /* screen size until 500px */
+
+
             .innerText {
-                font-size: 0.7em;
+                font-size: 0.8em;
+
+            }
+
+            .innerText1 {
+                font-size: 0.3em;
 
             }
         }
@@ -168,7 +174,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
-    <div class="carousel-inner" role="listbox" >
+    <div class="carousel-inner" role="listbox">
 
         <div class="active item" id="item1">
             <img class="new" src="images/gallery/new.png"  style="height: 896px;width: 100%" alt="...">
@@ -178,11 +184,11 @@
 
                 <div class="row">
                     <div class="col-xs-11 col-xs-offset-1">
-                    <div class="col-md-7 center-block visible-lg visible-md">
+                    <div class="col-md-7  center-block visible-lg visible-md">
 
 
                         <div  style="font-size: 20px;font-family: 'OpenSans';
-           position: relative;padding-top: 250.718px;
+           position: relative;padding-top: 100.718px;
            padding-left: 312.938px;
            color: rgb(255, 255, 255);
            line-height: 1.2;
@@ -208,9 +214,9 @@
 
                     </div>
 
-                    <div class="col-md-5" >
+                    <div class="col-md-5">
 
-                        <img src="images/top/iPhone%206%20White.png" class="imgimg"
+                        <img src="images/top/iPhone%206%20White.png" class="imgimg" style="width: 80%;"
                         />
 
                     </div>
@@ -236,7 +242,7 @@
 
                             <div class="innerText" style="text-transform: uppercase;"> Kompensation ved forsinkelse</div>
                             <br/>
-                            <div style="border-style: solid;
+                            <div class="innerText" style="border-style: solid;
                   border-width: 2px;
                   border-color: rgb(255, 255, 255);
                   background-color: rgba(1, 0, 0, 0.161);
@@ -273,7 +279,7 @@
 
 
                         <div  style="font-size: 20px;font-family: 'OpenSans';
-           position: relative;padding-top: 250.718px;
+           position: relative;padding-top: 100.718px;
            padding-left: 312.938px;
            color: rgb(255, 255, 255);
            line-height: 1.2;
@@ -300,7 +306,7 @@
 
                     <div class="col-md-5" >
 
-                        <img src="images/top/iPhone%206%20White.png" class="imgimg"
+                        <img src="images/top/iPhone%206%20White.png" class="imgimg" width="80%"
                         />
 
                     </div>
@@ -373,7 +379,7 @@
         <div class="row">
         <div class="col-xs-11 col-xs-offset-1">
         <div style="font-size: 40px;font-family: 'OpenSans';color: rgb(51, 51, 51);line-height: 1.2;">
-           <div class="innerText">
+           <div class="innerText1">
             DSB Rejsetidsgaranti. Få kompensation.
            </div>
 
