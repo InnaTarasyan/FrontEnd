@@ -138,13 +138,7 @@
             </button>
             <!--<a class="navbar-brand" href="#">Project name</a>-->
             <!--<div class="navbar-brand logo"></div>-->
-            <div class="navbar-brand">
-
-            <!--<img style="max-width:200px; margin-top: -7px;"
-                 src="images/top/logo.png">-->
-
-            </div>
-
+            <div class="navbar-brand">LOGO</div>
             <!--
             <ul class="nav navbar-brand navbar-nav navbar-right">
                 <li><div class="Layer_44"></div></li>
