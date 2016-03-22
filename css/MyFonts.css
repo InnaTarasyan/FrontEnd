@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../Fonts/OpenSans-Light.ttf") format("truetype");
+}
+span.light {
+    font-family: "OpenSansLight";
+}
+
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../Fonts/OpenSans-Bold.ttf") format("truetype");
+}
+span.bold {
+    font-family: "OpenSansBold";
+}
+
+
+@font-face {
+    font-family: "OpenSansSemibold";
+    src: url("../Fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+span.semibold {
+    font-family: "OpenSansSemibold";
+}
+
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../Fonts/OpenSans-Regular.ttf") format("truetype");
+}
+span.regular {
+    font-family: "OpenSansRegular";
+}
+
+p.regular {
+    font-family: "OpenSansRegular";
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../Fonts/OpenSans-Italic.ttf") format("truetype");
+}
+
+p.italic {
+    font-family: "OpenSansItalic";
+}
+span.italic {
+    font-family: "OpenSansItalic";
+}
+
+
