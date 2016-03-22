@@ -1,0 +1,11 @@
+#input_container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(29, 51, 80);
+    border-radius: 4px;
+    }
+#input {
+    border: none;
+    height:30px; padding-left: 20px; background-color: rgb(21, 38, 60);width: 100% }
+
+#input_img { position:absolute; bottom:8px; right:20px; width:19px; height:19px; }
